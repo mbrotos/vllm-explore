@@ -1,0 +1,478 @@
+timestamp,label,runtime,size,model,tokenizer,task,input_token_target,input_tokens,prompt_tokens,output_tokens,ttft_seconds,generation_seconds,output_tps,total_seconds,repeat_index,generated_text
+2026-04-10T15:47:24Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_ada_profile,512,896,911,96,1.0521669159998055,1.3900107090003075,69.06421610884061,2.442177625000113,1,"<|channel>thought
+1.  **Analyze the Request:** The user wants to identify the person from the provided reference bundle who meets three criteria:
+    *   Translated Menabrea's article about the Analytical Engine.
+    *   Added extensive notes.
+    *   Argued the machine could work on symbols beyond arithmetic.
+    *   The output must be the full name, in compact JSON format.
+
+2.  **Scan the Reference Bundle for Keywords:**"
+2026-04-10T15:47:27Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_ada_profile,2048,2064,2079,96,2.1888150830000086,1.4083240840000144,68.16612815946064,3.597139167000023,1,"<|channel>thought
+The user wants me to answer a specific question based *only* on the provided ""Reference bundle"" (Wikipedia articles).
+The question is: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+
+I need to scan the ""Ada Lovelace"" section of the reference bundle for these characteristics"
+2026-04-10T15:47:37Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_ada_profile,8192,8234,8249,96,8.471407459000147,1.5207724580004651,63.12581444710162,9.992179917000612,1,"<|channel>thought
+The user wants me to answer a specific question based *only* on the provided ""Reference bundle"" (Wikipedia excerpts).
+The question is: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+
+I need to scan the ""Ada Lovelace"" section of the reference bundle for these specific"
+2026-04-10T15:47:40Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_turing_profile,512,888,903,96,1.023513291999734,1.3887199999999211,69.12840601417525,2.412233291999655,1,"<|channel>thought
+1.  **Analyze the Request:** The goal is to identify the person who meets specific criteria based *only* on the provided reference bundle:
+    *   Combined wartime Enigma cryptanalysis.
+    *   Later worked on the Automatic Computing Engine.
+    *   Later worked on the Turing test.
+    *   Later worked on morphogenesis.
+    *   The output must be the full name.
+
+2.  **Scan the Reference Bundle"
+2026-04-10T15:47:43Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_turing_profile,2048,2056,2071,96,2.194023957999889,1.4085118339999099,68.15704183853249,3.6025357919997987,1,"<|channel>thought
+The user wants me to identify a person based on a specific combination of achievements mentioned in the provided ""Reference bundle.""
+The constraints are:
+1. Use only the provided notes and reference material.
+2. Return only the full name.
+
+The specific combination of achievements is:
+1. Combined wartime Enigma cryptanalysis.
+2. Later work on the Automatic Computing Engine.
+3. The Turing test.
+4. Morphogenesis.
+
+I"
+2026-04-10T15:47:53Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_turing_profile,8192,8226,8241,96,8.45968804200038,1.5110130410002967,63.53353504907384,9.970701083000677,1,"<|channel>thought
+The user wants me to identify a specific person based on a detailed description, using only the provided ""Reference bundle"" (Wikipedia excerpts).
+
+The description is: ""combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis.""
+
+I need to scan the biographies of Ada Lovelace, Alan Turing, and Grace Hopper for these specific combination of achievements.
+
+1.  **Ada Lovelace:**
+    *   "
+2026-04-10T15:47:56Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_hopper_profile,512,903,918,96,1.0235458329998437,1.3930556249997608,68.91325678399704,2.4166014579996045,1,"<|channel>thought
+1.  **Analyze the Request:** The goal is to identify a specific person based on three criteria:
+    *   Served in the U.S. Navy.
+    *   Worked on the Harvard Mark I and UNIVAC.
+    *   Pushed machine-independent, English-like programming that influenced FLOW-MATIC and COBOL.
+    *   The output must be the full name, in compact JSON format.
+
+2.  **"
+2026-04-10T15:47:59Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_hopper_profile,2048,2071,2086,96,2.2117474579999907,1.4045824169998014,68.34771590339051,3.616329874999792,1,"<|channel>thought
+The user wants me to answer a specific question based *only* on the provided ""Reference bundle"" (Wikipedia excerpts).
+
+The question is: ""Based only on the reference bundle, which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL? Return only the full name.""
+
+I need to scan the biographies of Ada Lovelace"
+2026-04-10T15:48:09Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_hopper_profile,8192,8198,8213,96,8.431350666000071,1.5099690000006376,63.577464173078695,9.941319666000709,1,"<|channel>thought
+The user wants me to identify a specific person based on a detailed description, using only the provided ""Reference bundle"" (Wikipedia excerpts).
+
+The description is:
+1. Served in the U.S. Navy.
+2. Worked on the Harvard Mark I and UNIVAC.
+3. Pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL.
+
+I need to scan the ""Grace Hopper"" section of the reference bundle"
+2026-04-10T15:48:11Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_space_program_bridge,512,735,750,96,0.8593055419996745,1.388374042000578,69.14563157754576,2.2476795840002524,1,"<|channel>thought
+Thinking Process:
+
+1.  **Analyze the Request:** The goal is to identify the U.S. human spaceflight program that served as the ""bridge"" between Mercury and Apollo, based *only* on the provided reference bundle. The key characteristics are: long-duration flight, EVA, rendezvous, docking, and a two-astronaut crew. The output must be the program name only, within a specific JSON structure.
+
+2.  **Scan the"
+2026-04-10T15:48:15Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_space_program_bridge,2048,2070,2085,96,2.188509583999803,1.414501250000285,67.86844479634122,3.603010834000088,1,"<|channel>thought
+The user wants me to answer a specific question based *only* on the provided ""Reference bundle"" (Wikipedia excerpts).
+The question is: ""Based only on the reference bundle, which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew? Return only the program name.""
+
+I need to scan the reference bundle for information matching the"
+2026-04-10T15:48:25Z,mlx-gemma4-e4b,mlx_lm,4b,mlx-community/gemma-4-e4b-it-4bit,google/gemma-4-E4B-it,wiki_space_program_bridge,8192,8201,8216,96,8.439736583999547,1.5186130000001867,63.21557895262861,9.958349583999734,1,"<|channel>thought
+The user wants me to answer a specific question based *only* on the provided ""Reference bundle"" (Wikipedia excerpts).
+The question is: ""Based only on the reference bundle, which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew? Return only the program name.""
+
+I need to scan the ""Reference bundle"" for keywords"
+2026-04-10T15:48:36Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_ada_profile,512,896,911,96,1.8804542919997402,1.416023208000297,67.79549901273924,3.2964775000000373,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could could work on symbols beyond arithmetic? Return only the full name.""
+    *   Constraint: Use only the provided notes and reference material. Return only the full name.
+
+    *   ""Lovelace translated an article by the military engineer Luigi Menabrea about the Analytical"
+2026-04-10T15:48:41Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_ada_profile,2048,2064,2079,96,3.487295957999777,1.4476732080001966,66.31330846594417,4.9349691659999735,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+    *   Reference Bundle: Contains information about Ada Lovelace, Alan Turing, and Grace Hopper.
+    *   Constraint: Use *only* the provided notes and reference material. Return *only* the full"
+2026-04-10T15:48:56Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_ada_profile,8192,8234,8249,96,14.144477291999465,1.566270583000005,61.29209157214932,15.71074787499947,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+    *   Constraint: Use *only* the provided notes and reference material.
+    *   Constraint: Return only the full name.
+
+    *   ""Ada Lovelace"" section:
+        *   "
+2026-04-10T15:48:59Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_turing_profile,512,888,903,96,1.5564905420005744,1.4325381660000858,67.0139213589331,2.98902870800066,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis? Return only the full name.""
+    *   Constraint: Use only the provided notes and reference material. Return only the full name in a compact JSON format.
+
+    *   Ada Lovelace: Worked on Babbage's Analytical Engine, first computer programmer, Bernoulli numbers, """
+2026-04-10T15:49:04Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_turing_profile,2048,2056,2071,96,3.4576053750006395,1.4524018749998504,66.09740847381507,4.91000725000049,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis? Return only the full name.""
+    *   Reference Bundle: Contains information about Ada Lovelace, Alan Turing, and Grace Hopper.
+    *   Constraint: Use *only* the provided notes and reference material. Return *only* the full name.
+
+    *   *"
+2026-04-10T15:49:20Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_turing_profile,8192,8226,8241,96,14.49524241600011,1.5710245840000425,61.10661855817108,16.066267000000153,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis? Return only the full name.""
+    *   Reference Bundle: Contains information about Ada Lovelace, Alan Turing, and Grace Hopper.
+
+    *   *Ada Lovelace:*
+        *   English mathematician and writer.
+        *   Work on Charles Babbage's Analytical"
+2026-04-10T15:49:23Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_hopper_profile,512,903,918,96,1.620676542000183,1.4154290830001628,67.82395610843116,3.0361056250003458,1,"<|channel>thought
+*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided notes and reference material. Return only the full name.
+
+    *   Ada Lovelace: English mathematician/writer. Worked on Babbage's Analytical Engine.
+    *   Alan Turing:"
+2026-04-10T15:49:28Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_hopper_profile,2048,2071,2086,96,3.639398624999558,1.459677792000548,65.76793901099782,5.099076417000106,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL? Return only the full name.""
+    *   Reference Bundle: Contains information on Ada Lovelace, Alan Turing, and Grace Hopper.
+    *   Constraint: Use *only* the provided notes and reference"
+2026-04-10T15:49:44Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_hopper_profile,8192,8198,8213,96,14.3463960830004,1.5548875419999604,61.740799515649115,15.90128362500036,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL? Return only the full name.""
+    *   Constraints: Use *only* the provided notes and reference material. Return *only* the full name.
+
+    *   Ada Lovelace: English mathematician,"
+2026-04-10T15:49:47Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,512,735,750,96,1.3199064999998882,1.413792000000285,67.90249202144349,2.7336985000001732,1,"<|channel>thought
+*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use only the provided notes and reference material. Return only the program name.
+
+    *   Project Mercury: First human spaceflight program (1958-1963). Single astronaut.
+    *   "
+2026-04-10T15:49:52Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,2048,2070,2085,96,3.5782746249997217,1.4578573329999927,65.85006490480814,5.036131957999714,1,"<|channel>thought
+*   Question: ""Based only on the reference bundle, which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew? Return only the program name.""
+    *   Reference Bundle: Contains information about Project Mercury, Project Gemini, and the Apollo program.
+    *   Constraint: Use *only* the provided notes and reference material"
+2026-04-10T15:50:08Z,mlx-gemma4-26b,mlx_lm,26b,mlx-community/gemma-4-26b-a4b-it-4bit,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,8192,8201,8216,96,14.106671666999318,1.5631386250006472,61.41489850265856,15.669810291999966,1,"<|channel>thought
+*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use *only* the provided reference bundle. Return *only* the program name.
+
+    *   Project Mercury: First human spaceflight program (1958-1963). Goal: put a man"
+2026-04-10T15:50:35Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_ada_profile,512,896,911,96,11.549241040999732,7.42488266700002,12.929497246693629,18.974123707999752,1,"<|channel>thought
+*   Question: Who translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace section:
+        *   ""Lovelace translated an article by the military engineer Luigi Menabrea about"
+2026-04-10T15:51:08Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_ada_profile,2048,2064,2079,96,25.4597396249992,7.582897541999955,12.660068195340594,33.04263716699916,1,"<|channel>thought
+*   Question: Which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in compact JSON format with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace section:
+        *   ""Lovelace translated an article by the"
+2026-04-10T15:53:01Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_ada_profile,8192,8234,8249,96,104.95767291700031,7.916815249999672,12.126088201945091,112.87448816699998,1,"<|channel>thought
+*   Question: Which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in compact JSON format with ""answer"" and ""reason"".
+
+    *   Ada Lovelace section:
+        *   ""Augusta Ada King, Countess of Lovelace"
+2026-04-10T15:53:19Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_turing_profile,512,888,903,96,11.077907374999995,7.413512625000294,12.949327107943812,18.49142000000029,1,"<|channel>thought
+*   Question: Which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: Analytical Engine, Bernoulli numbers, ""poetical science"". (No Enigma, ACE, Turing test, or morphogenesis).
+    "
+2026-04-10T15:53:52Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_turing_profile,2048,2056,2071,96,25.449922499999957,7.5383349580006325,12.734907713023906,32.98825745800059,1,"<|channel>thought
+*   Question: Which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in a compact JSON format with ""answer"" and ""reason"".
+
+    *   Ada Lovelace: Worked on the Analytical Engine, first computer programmer, Bernoulli numbers.
+    *   Alan Turing:
+"
+2026-04-10T15:55:45Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_turing_profile,8192,8226,8241,96,105.01604504199986,7.9167179169999145,12.126237287532376,112.93276295899977,1,"<|channel>thought
+The user wants to identify a person based on specific criteria provided in the ""Reference bundle"".
+
+    *   Wartime Enigma cryptanalysis.
+    *   Later work on the Automatic Computing Engine.
+    *   The Turing test.
+    *   Morphogenesis.
+
+    *   *Ada Lovelace:* Worked on the Analytical Engine, first computer programmer, Bernoulli numbers. (No match)
+    *   *Alan Turing:*
+        "
+2026-04-10T15:56:04Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_hopper_profile,512,903,918,96,11.119152125000255,7.425318499999776,12.928738343008842,18.54447062500003,1,"<|channel>thought
+*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: English mathematician, worked on Analytical Engine. No mention of US"
+2026-04-10T15:56:37Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_hopper_profile,2048,2071,2086,96,25.831645749999552,7.548648208000486,12.717508798231417,33.38029395800004,1,"<|channel>thought
+*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in a compact JSON format with ""answer"" and ""reason"".
+
+    *   Ada Lovelace: English mathematician, worked on Analytical"
+2026-04-10T15:58:29Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_hopper_profile,8192,8198,8213,96,104.35375308400035,7.812355624999327,12.288227086437615,112.16610870899967,1,"<|channel>thought
+*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only.
+
+    *   Ada Lovelace: Worked on the Analytical Engine, first computer programmer, ""poetical science"".
+    *"
+2026-04-10T15:58:46Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_space_program_bridge,512,735,750,96,9.10606716699931,7.254984083000636,13.232282648964095,16.361051249999946,1,"<|channel>thought
+*   Task: Identify the U.S. human spaceflight program that acted as the bridge between Mercury and Apollo.
+    *   Specific criteria: Focused on long-duration flight, EVA, rendezvous, and docking, with a two-astronaut crew.
+    *   Constraint: Use only the provided reference bundle.
+    *   Output format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Project Mercury: First human space"
+2026-04-10T15:59:19Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_space_program_bridge,2048,2070,2085,96,25.70018995800001,7.451310792000186,12.883639225338275,33.151500750000196,1,"<|channel>thought
+*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Compact JSON with ""answer"" and ""reason"".
+
+    *   Project Mercury: First human spaceflight program, single astronaut, Earth orbit.
+    *"
+2026-04-10T16:01:11Z,mlx-gemma4-31b,mlx_lm,31b,mlx-community/gemma-4-31b-it-4bit,google/gemma-4-31B-it,wiki_space_program_bridge,8192,8201,8216,96,104.13406212500013,7.820236790999843,12.275843119032471,111.95429891599997,1,"<|channel>thought
+*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Return only the program name in a compact JSON format with keys ""answer"" and ""reason"".
+
+    *   Project Mercury: First human spaceflight program,"
+2026-04-10T16:01:20Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_ada_profile,512,896,911,96,5.232612167000298,1.670895707999989,57.454214251893106,6.903507875000287,1,"1.  **Analyze the Request:** The user wants to identify a person, based *only* on the provided reference bundle, who meets three criteria:
+    *   Translated Menabrea's article about the Analytical Engine.
+    *   Added extensive notes to the translation.
+    *   Argued that the machine could work on symbols beyond arithmetic.
+    *   The output must be the full name, and the format must be compact JSON"
+2026-04-10T16:01:25Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_ada_profile,2048,2064,2079,96,3.5840510829993946,1.7102760420002596,56.13128971140989,5.294327124999654,1,"The user wants me to answer a question based *only* on the provided reference bundle (Wikipedia articles).
+The question asks: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+
+I need to scan the reference bundle for keywords: ""Menabrea,"" ""Analytical Engine,"" ""translated"
+2026-04-10T16:01:40Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_ada_profile,8192,8234,8249,96,13.525070624999898,1.845988082999611,52.00466941477013,15.37105870799951,1,"The user wants me to identify a person based on specific actions described in the question, using only the provided reference bundle.
+The actions are:
+1. Translated Menabrea's article about the Analytical Engine.
+2. Added extensive notes.
+3. Argued that such a machine could work on symbols beyond arithmetic.
+
+I need to scan the reference bundle for these details.
+
+Scanning the reference bundle:
+
+**Ada Lovelace:**
+*"
+2026-04-10T16:01:44Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_turing_profile,512,888,903,96,1.6787350000004153,1.6794864160001453,57.160331328331324,3.3582214160005606,1,"1.  **Analyze the Request:** The user wants to identify a person, based *only* on the provided reference bundle, who meets three criteria:
+    *   Combined wartime Enigma cryptanalysis.
+    *   Worked on the Automatic Computing Engine.
+    *   Worked on the Turing test and morphogenesis.
+    *   The output must be the full name, in compact JSON format.
+
+2.  **Scan the Reference Bundle for Keywords"
+2026-04-10T16:01:49Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_turing_profile,2048,2056,2071,96,3.5927891669998644,1.7047897499996907,56.3119293742923,5.297578916999555,1,"The user wants me to identify a person based on a specific combination of achievements:
+1. Wartime Enigma cryptanalysis.
+2. Later work on the Automatic Computing Engine.
+3. Involvement with the Turing test.
+4. Research on morphogenesis.
+
+I must use only the provided reference bundle (Wikipedia articles).
+
+1. **Check Ada Lovelace:**
+    * Known for work on Babbage's Analytical Engine.
+    * Notes"
+2026-04-10T16:02:04Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_turing_profile,8192,8226,8241,96,13.49243233299967,1.784433667000485,53.798581463310796,15.276866000000155,1,"The user wants me to identify a person based on a combination of achievements:
+1. Wartime Enigma cryptanalysis.
+2. Later work on the Automatic Computing Engine.
+3. The Turing test.
+4. Morphogenesis research.
+
+I must use only the provided reference bundle.
+
+Scanning the reference bundle for these keywords:
+
+**Ada Lovelace:**
+* Known for work on Charles Babbage's Analytical Engine.
+* Notes described"
+2026-04-10T16:02:08Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_hopper_profile,512,903,918,96,1.6732125830003497,1.6822242919997734,57.0673009874791,3.355436875000123,1,"1.  **Analyze the Request:** The user wants to identify a person based on four criteria, using *only* the provided reference material:
+    *   Served in the U.S. Navy.
+    *   Worked on the Harvard Mark I.
+    *   Worked on UNIVAC.
+    *   Pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL.
+    *   The output must be the"
+2026-04-10T16:02:13Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_hopper_profile,2048,2071,2086,96,3.595075000000179,1.6910162089998266,56.77059716463655,5.286091209000006,1,"The user wants me to answer a question based *only* on the provided ""Reference bundle"" (Wikipedia articles).
+The question asks for the full name of a person who meets several criteria:
+1. Served in the U.S. Navy.
+2. Worked on the Harvard Mark I and UNIVAC.
+3. Pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL.
+
+I need to scan the ""Grace"
+2026-04-10T16:02:28Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_hopper_profile,8192,8198,8213,96,13.423397375000604,1.7939136669992877,53.51428096346518,15.217311041999892,1,"The user wants me to identify a person based on a set of criteria, using only the provided ""Reference bundle"" (Wikipedia articles) and the ""Supplemental notes"" (Archive notes).
+
+Criteria:
+1. Served in the U.S. Navy.
+2. Worked on the Harvard Mark I and UNIVAC.
+3. Pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL.
+4. Return only the full"
+2026-04-10T16:02:31Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_space_program_bridge,512,735,750,96,1.4126933750003445,1.6768727499993474,57.24942456130756,3.089566124999692,1,"1.  **Analyze the Request:** The user wants to identify the U.S. human spaceflight program that acted as the ""bridge"" between Mercury and Apollo, based *only* on the provided reference material. The key characteristics provided are: focusing on long-duration flight, EVA (extravehicular activity), rendezvous, and docking, and using a two-astronaut crew. The output must be only the program name.
+
+2.  **Scan the"
+2026-04-10T16:02:37Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_space_program_bridge,2048,2070,2085,96,3.5988504160004595,1.687678125000275,56.88288458439571,5.2865285410007345,1,"The user wants me to answer a question based *only* on the provided ""Reference bundle"" (Wikipedia articles).
+The question asks: ""Based only on the reference bundle, which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew? Return only the program name.""
+
+I need to scan the reference material for keywords: ""bridge"
+2026-04-10T16:02:52Z,ollama-gemma4-e4b,ollama,4b,gemma4:e4b,google/gemma-4-E4B-it,wiki_space_program_bridge,8192,8201,8216,96,13.263017833000049,1.7934902920005698,53.52691365444508,15.056508125000619,1,"The user wants me to identify which U.S. human spaceflight program acted as the bridge between Mercury and Apollo, based *only* on the provided reference bundle.
+The answer must be returned as a program name, and I must use the provided archive notes/supplemental notes only for context/reasoning, but the core information comes from the reference bundle.
+
+1.  **Analyze the Question:** Identify the program that was the ""bridge between Mercury"
+2026-04-10T16:03:03Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_ada_profile,512,896,911,96,7.472825249999914,1.764550374999999,54.4047941958019,9.237375624999913,1,"The user wants to identify a specific person based on the provided text.
+
+    *   Translated Menabrea's article about the Analytical Engine.
+    *   Added extensive notes.
+    *   Argued that such a machine could work on symbols beyond arithmetic.
+
+    *   ""Lovelace translated an article by the military engineer Luigi Menabrea about the Analytical Engine.""
+    *   ""She then added seven long notes to the translation"
+2026-04-10T16:03:08Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_ada_profile,2048,2064,2079,96,3.7664696250003544,1.7983577919994786,53.382035781246714,5.564827416999833,1,"*   Question: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+    *   Reference Bundle: Contains information about Ada Lovelace, Alan Turing, and Grace Hopper.
+    *   Constraint: Use *only* the provided reference bundle. Return *only* the full name."
+2026-04-10T16:03:24Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_ada_profile,8192,8234,8249,96,14.076465584000289,1.956436250000479,49.06881070107779,16.032901834000768,1,"*   Question: ""Based only on the reference bundle, which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic? Return only the full name.""
+    *   Constraints: Use *only* the provided reference bundle. Return *only* the full name.
+
+    *   Section: Ada Lovelace
+    *   ""Lovelace translated an article by"
+2026-04-10T16:03:28Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_turing_profile,512,888,903,96,1.7161814589999267,1.7590867909993904,54.57377116990316,3.475268249999317,1,"The user wants to identify a specific person based on the provided text.
+
+    *   ""combined wartime Enigma cryptanalysis""
+    *   ""later work on the Automatic Computing Engine""
+    *   ""the Turing test""
+    *   ""morphogenesis""
+
+    *   *Ada Lovelace*: Work on Analytical Engine, Bernoulli numbers, ""poet/science"". No mention of Enigma, ACE, Turing test, or morphogenesis."
+2026-04-10T16:03:33Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_turing_profile,2048,2056,2071,96,3.7101245000003473,1.7897724999993443,53.638102049302454,5.499896999999692,1,"The user wants to identify a specific person based on the provided reference bundle.
+
+    *   ""combined wartime Enigma cryptanalysis""
+    *   ""later work on the Automatic Computing Engine""
+    *   ""the Turing test""
+    *   ""morphogenesis""
+
+    *   *Ada Lovelace*: Work on Analytical Engine, Bernoulli numbers, first computer programmer. No mention of Enigma, ACE, Turing test, or morphogenesis.
+"
+2026-04-10T16:03:49Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_turing_profile,8192,8226,8241,96,14.050322916999903,1.9093411670000933,50.279123322330435,15.959664083999996,1,"*   Question: ""Based only on the reference bundle, which person combined wartime Enigma cryptanalysis with later work on the Automatic Computing Engine, the Turing test, and morphogenesis? Return only the full name.""
+    *   Reference Bundle: Contains information about Ada Lovelace, Alan Turing, and Grace Hopper.
+    *   Constraint: Use *only* the provided reference bundle.
+
+    *   *Ada Lovelace:* English mathematician/writer, work"
+2026-04-10T16:03:53Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_hopper_profile,512,903,918,96,1.7269270409997262,1.7637971670001207,54.428027097513436,3.490724207999847,1,"The user wants to identify a specific person based on the provided text.
+
+    *   Served in the U.S. Navy.
+    *   Worked on the Harvard Mark I.
+    *   Worked on UNIVAC.
+    *   Pushed machine-independent English-like programming.
+    *   Influenced FLOW-MATIC and COBOL.
+
+    *   *Ada Lovelace*: English mathematician, worked on Babbage's Analytical"
+2026-04-10T16:03:58Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_hopper_profile,2048,2071,2086,96,3.7661433330004,1.7998786249991099,53.33692987217262,5.56602195799951,1,"*   Question: ""Based only on the reference bundle, which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL? Return only the full name.""
+    *   Constraints: Use *only* the provided reference bundle. Return *only* the full name.
+
+    *   Ada Lovelace: English mathematician, worked on"
+2026-04-10T16:04:14Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_hopper_profile,8192,8198,8213,96,14.017665624999609,1.9017255409999052,50.480470462380346,15.919391165999514,1,"*   Question: ""Based only on the reference bundle, which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL? Return only the full name.""
+    *   Constraints: Use *only* the provided reference bundle. Return *only* the full name.
+
+    *   Ada Lovelace: English mathematician/writer,"
+2026-04-10T16:04:17Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,512,735,750,96,1.4784657079999306,1.7432893330005754,55.06831148605916,3.221755041000506,1,"The user wants to identify a specific U.S. human spaceflight program based on the provided text.
+
+    *   ""bridge between Mercury and Apollo""
+    *   ""focusing on long-duration flight, EVA, rendezvous, and docking""
+    *   ""two-astronaut crew""
+
+    *   *Project Mercury*: First program, 1958-1arg63, single astronaut, goal: Earth orbit.
+"
+2026-04-10T16:04:23Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,2048,2070,2085,96,3.7767354580000756,1.7848776669998188,53.78519871413112,5.561613124999894,1,"*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use *only* the provided reference bundle. Return *only* the program name.
+
+    *   Project Mercury: First human spaceflight program, 1958-1963, single astronaut, Earth"
+2026-04-10T16:04:39Z,ollama-gemma4-26b,ollama,26b,gemma4:26b,google/gemma-4-26B-A4B-it,wiki_space_program_bridge,8192,8201,8216,96,13.863518333999309,1.9042704580006102,50.41300703724367,15.76778879199992,1,"*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use *only* the provided reference bundle. Return *only* the program name.
+
+    *   Project Mercury: First human spaceflight program (1958-1963). Goal: put a man"
+2026-04-10T16:05:07Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_ada_profile,512,896,911,96,17.84839808400011,8.308212040999933,11.554832679552788,26.156610125000043,1,"*   Question: Who translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace:
+        *   ""Lovelace translated an article by the military engineer Luigi Menabrea about"
+2026-04-10T16:05:40Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_ada_profile,2048,2064,2079,96,24.895330332999947,8.401364041999841,11.426715890429191,33.29669437499979,1,"*   Question: Which person translated Menabrea's article about the Analytical Engine, added extensive notes, and argued that such a machine could work on symbols beyond arithmetic?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in a compact JSON format with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace:
+        *   ""Lovelace translated an article by the"
+2026-04-10T16:07:24Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_ada_profile,8192,8234,8249,96,95.41811241600044,8.879188124999928,10.811799305130815,104.29730054100037,1,"The user wants to know the full name of the person who:
+1. Translated Menabrea's article about the Analytical Engine.
+2. Added extensive notes to that translation.
+3. Argued that the machine could work on symbols beyond arithmetic.
+
+    *   Ada Lovelace: ""Lovelace translated an article by the military engineer Luigi Menabrea about the Analytical Engine. She then added seven long notes to the translation... Lovelace"
+2026-04-10T16:07:44Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_turing_profile,512,888,903,96,11.101192749999427,8.287892291999924,11.583162113806205,19.38908504199935,1,"*   Task: Identify the person who combined wartime Enigma cryptanalysis, work on the Automatic Computing Engine, the Turing test, and morphogenesis.
+    *   Constraint: Use *only* the provided reference bundle.
+    *   Output format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: Analytical Engine, Bernoulli numbers, ""poetical science"". (No Enigma, ACE, Turing test, or"
+2026-04-10T16:08:17Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_turing_profile,2048,2056,2071,96,24.87411104199964,8.412664125000447,11.411367264112057,33.28677516700009,1,"*   Task: Identify the person who combined wartime Enigma cryptanalysis, work on the Automatic Computing Engine, the Turing test, and morphogenesis.
+    *   Constraint: Use *only* the provided reference bundle.
+    *   Output Format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: Work on Analytical Engine, Bernoulli numbers, ""poetical science"". (No Enigma, Automatic Computing Engine,"
+2026-04-10T16:10:01Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_turing_profile,8192,8226,8241,96,95.3577339579997,8.834378124999603,10.866639240665773,104.1921120829993,1,"The user wants to identify a person from the provided reference bundle who meets several criteria:
+1.  Combined wartime Enigma cryptanalysis.
+2.  Later work on the Automatic Computing Engine.
+3.  Later work on the Turing test.
+4.  Later work on morphogenesis.
+
+Looking at the ""Alan Turing"" section of the reference bundle:
+-   ""During World War II, Turing worked for the Government Code and Cypher School"
+2026-04-10T16:10:21Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_hopper_profile,512,903,918,96,11.107608041000276,8.320529291999264,11.537727544846252,19.42813733299954,1,"*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: English mathematician, worked on Analytical Engine. (No Navy"
+2026-04-10T16:10:54Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_hopper_profile,2048,2071,2086,96,24.861778832999335,8.421277792000183,11.399695197229509,33.28305662499952,1,"*   Question: Which person served in the U.S. Navy, worked on the Harvard Mark I and UNIVAC, and pushed machine-independent English-like programming that influenced FLOW-MATIC and COBOL?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Full name only, in a compact JSON format with keys ""answer"" and ""reason"".
+
+    *   Ada Lovelace: English mathematician, worked on"
+2026-04-10T16:12:38Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_hopper_profile,8192,8198,8213,96,94.95531850000043,8.826198415999897,10.876709935046753,103.78151691600033,1,"The user wants to identify a person based on specific criteria provided in the ""Reference bundle"".
+
+    *   Served in the U.S. Navy.
+    *   Worked on the Harvard Mark I.
+    *   Worked on UNIVAC.
+    *   Pushed machine-independent English-like programming.
+    *   Influenced FLOW-MATIC and COBOL.
+
+    *   *Ada Lovelace:* English mathematician, worked on Analytical"
+2026-04-10T16:12:55Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_space_program_bridge,512,735,750,96,9.218271374998949,8.252118915999745,11.633375739880451,17.470390290998694,1,"*   Task: Identify the U.S. human spaceflight program that acted as the bridge between Mercury and Apollo.
+    *   Criteria: Focused on long-duration flight, EVA, rendezvous, and docking, and used a two-astronaut crew.
+    *   Constraint: Use only the provided reference bundle.
+    *   Output format: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Project Mercury: First program ("
+2026-04-10T16:13:28Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_space_program_bridge,2048,2070,2085,96,24.87385600000016,8.4085949170003,11.416889616826403,33.28245091700046,1,"*   Question: Which U.S. human spaceflight program acted as the bridge between Mercury and Apollo by focusing on long-duration flight, EVA, rendezvous, and docking with a two-astronaut crew?
+    *   Constraint: Use only the provided reference bundle.
+    *   Output: Compact JSON with keys ""answer"" and ""reason"".
+
+    *   Project Mercury: First human spaceflight program (1958-196"
+2026-04-10T16:15:11Z,ollama-gemma4-31b,ollama,31b,gemma4:31b,google/gemma-4-31B-it,wiki_space_program_bridge,8192,8201,8216,96,93.85526016599943,8.820750083999883,10.883428176265431,102.67601024999931,1,"The user wants to identify a specific U.S. human spaceflight program based on the provided reference bundle.
+
+    *   Program acted as a bridge between Mercury and Apollo.
+    *   Focused on long-duration flight, EVA, rendezvous, and docking.
+    *   Used a two-astronaut crew.
+
+    *   *Project Mercury:* First human spaceflight program (1958-1963). Single astronaut. Goal"
+2026-04-10T16:15:24Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_ada_profile,512,849,9549,62,7.78,0.135,459.25925925925924,7.98,1,"{""answer"":""Augusta Ada King, Countess of Lovelace"",""reason"":""The reference bundle states that Ada Lovelace translated Luigi Menabrea's article on the Analytical Engine, added seven extensive notes, and argued the machine could manipulate symbols and information beyond numbers.""}"
+2026-04-10T16:15:27Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_ada_profile,2048,2054,9219,60,1.637,0.106,566.0377358490566,1.86,1,"{""answer"":""Augusta Ada King, Countess of Lovelace"",""reason"":""The reference bundle states that Ada Lovelace translated Luigi Menabrea's article on the Analytical Engine, added seven long notes, and argued the machine could manipulate symbols beyond numbers.""}"
+2026-04-10T16:15:42Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_ada_profile,8192,8223,16924,59,12.354,0.417,141.48681055155876,12.91,1,"{""answer"":""Augusta Ada King, Countess of Lovelace"",""reason"":""The reference bundle says Ada Lovelace translated Luigi Menabrea's article on the Analytical Engine, added seven extensive notes, and argued the machine could manipulate symbols beyond arithmetic.""}"
+2026-04-10T16:15:46Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_turing_profile,512,845,6985,57,3.108,0.211,270.14218009478674,3.372,1,"{""answer"":""Alan Turing"",""reason"":""The reference bundle says Alan Turing worked on wartime Enigma cryptanalysis at Bletchley Park, then later designed the Automatic Computing Engine and became associated with the Turing test and morphogenesis.""}"
+2026-04-10T16:15:58Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_turing_profile,2048,2050,7167,59,9.632,0.137,430.6569343065693,9.881,1,"{""answer"":""Alan Turing"",""reason"":""The reference bundle states that Alan Turing worked on wartime Enigma cryptanalysis at Bletchley Park and later designed the Automatic Computing Engine, became associated with the Turing test, and researched morphogenesis.""}"
+2026-04-10T16:16:11Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_turing_profile,8192,8219,16920,47,11.268,0.11,427.27272727272725,11.493,1,"{""answer"":""Alan Turing"",""reason"":""The reference says Alan Turing did wartime Enigma cryptanalysis and later worked on the Automatic Computing Engine, the Turing test, and morphogenesis.""}"
+2026-04-10T16:16:20Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_hopper_profile,512,854,6994,58,7.288,0.159,364.7798742138365,7.555,1,"{""answer"":""Grace Hopper"",""reason"":""The reference bundle says Grace Hopper served in the U.S. Navy, worked on the Harvard Mark I and later on UNIVAC, and promoted machine-independent English-like languages that influenced FLOW-MATIC and COBOL.""}"
+2026-04-10T16:16:32Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_hopper_profile,2048,2059,9224,58,8.956,0.068,852.9411764705882,9.072,1,"{""answer"":""Grace Hopper"",""reason"":""The reference bundle states that Grace Hopper served in the U.S. Navy, worked on the Harvard Mark I and later UNIVAC, and promoted machine-independent English-like programming that influenced FLOW-MATIC and COBOL.""}"
+2026-04-10T16:16:38Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_hopper_profile,8192,8193,14334,58,4.225,0.139,417.2661870503597,4.413,1,"{""answer"":""Grace Hopper"",""reason"":""The reference bundle states that Grace Hopper served in the U.S. Navy, worked on the Harvard Mark I and later UNIVAC, and promoted machine-independent English-like programming that influenced FLOW-MATIC and COBOL.""}"
+2026-04-10T16:16:42Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_space_program_bridge,512,667,5781,67,1.952,0.135,496.29629629629625,2.13,1,"{""answer"":""Project Gemini"",""reason"":""The reference bundle states that Project Gemini was the second U.S. human spaceflight program, used a two-astronaut crew, focused on long-duration flight, EVA, rendezvous, and docking, and is often described as the bridge between Mercury and Apollo.""}"
+2026-04-10T16:16:45Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_space_program_bridge,2048,2049,10748,51,1.368,0.303,168.31683168316832,1.774,1,"{""answer"":""Project Gemini"",""reason"":""The reference bundle states that Project Gemini was the bridge between Mercury and Apollo, using a two-astronaut crew to develop long-duration flight, EVA, rendezvous, and docking.""}"
+2026-04-10T16:16:58Z,opencode-gpt-5.4,opencode,gpt-5.4,openai/gpt-5.4,openai:o200k_base,wiki_space_program_bridge,8192,8217,8212,55,11.978,0.126,436.5079365079365,12.216,1,"{""answer"":""Project Gemini"",""reason"":""The reference bundle states that Project Gemini, with a two-astronaut crew, focused on long-duration flight, EVA, rendezvous, and docking and is described as the bridge between Mercury and Apollo.""}"
