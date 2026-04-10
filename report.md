@@ -18,7 +18,7 @@ This benchmark is a small long-context zero-shot QA set built from Wikipedia-der
 - Grace Hopper
 - Project Gemini
 
-Prompts were padded to roughly `512`, `2048`, and `8192` input tokens, with `max_output_tokens=96`. The prompt asks for compact JSON, so the benchmark is mostly testing prompt ingestion (`TTFT`) plus short-answer decode speed (`TPS`).
+Prompts were padded to roughly `512`, `2048`, and `8192` input tokens, with `max_output_tokens=96`. The prompt asks for compact JSON, so the benchmark is mostly testing `TTFT` (time to first token), which is strongly affected by prompt length and runtime overhead, plus `TPS` (tokens per second) during short-answer decoding.
 
 ## Short Answer
 
@@ -46,7 +46,7 @@ I used `input_tokens` for TTFT comparisons and kept `output_tokens` next to TPS,
 
 ## MLX vs GGUF/Ollama
 
-- `4B` and `26B` are the main story: MLX is better on both prompt ingestion and decode speed.
+- `4B` and `26B` are the main story: MLX is better on both `TTFT` and decode speed.
 - The `4B` MLX result is especially strong: about `1.05s` TTFT per `1k` input tokens versus about `1.75s` for Ollama.
 - `26B` is close on TTFT, but MLX still holds a big decode advantage: about `65 tok/s` versus about `53 tok/s`.
 - `31B` looks near the edge of comfort for this setup. Both runtimes have very high TTFT on `~8k` token prompts (`~95-105s`), so the practical difference there is smaller than the absolute wait time.
