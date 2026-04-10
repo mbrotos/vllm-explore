@@ -1,0 +1,60 @@
+Source: Condensed from Wikipedia articles on Ada Lovelace, Alan Turing, and Grace Hopper.
+Pages consulted on 2026-04-10:
+- https://en.wikipedia.org/wiki/Ada_Lovelace
+- https://en.wikipedia.org/wiki/Alan_Turing
+- https://en.wikipedia.org/wiki/Grace_Hopper
+
+Ada Lovelace
+
+Augusta Ada King, Countess of Lovelace, was an English mathematician and writer.
+She is chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.
+Lovelace is often described as the first computer programmer.
+
+Lovelace translated an article by the military engineer Luigi Menabrea about the Analytical Engine.
+She then added seven long notes to the translation, and those notes were much longer than the translated article itself.
+Her notes described a method for using the machine to calculate Bernoulli numbers, often called the first published computer program.
+
+She went beyond seeing the machine as only a calculator.
+Lovelace argued that computing devices could manipulate symbols and information other than numbers.
+She explicitly discussed possibilities such as music and other encoded information.
+She described her own approach as "poetical science".
+
+Lovelace's work centered on Babbage's Analytical Engine rather than an electronic computer.
+Although the engine was never built in her lifetime, later historians credited her with recognizing ideas that anticipated modern general-purpose computing.
+
+Alan Turing
+
+Alan Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist.
+He is widely considered a foundational figure in theoretical computer science.
+Turing formalized the concepts of algorithm and computation with the Turing machine.
+
+During World War II, Turing worked for the Government Code and Cypher School at Bletchley Park.
+He led Hut 8, the section responsible for German naval cryptanalysis.
+He played a major role in work against Enigma and in techniques that accelerated Allied codebreaking.
+
+After the war, Turing worked at the National Physical Laboratory and designed the Automatic Computing Engine, one of the first stored-program computer designs.
+Later he worked at the University of Manchester on early computers.
+He also became associated with the Turing test and with major work in mathematical biology.
+His research on morphogenesis examined how biological patterns could arise from chemical processes.
+
+In 1952, Turing was prosecuted for homosexual acts.
+He accepted hormone treatment rather than prison.
+He died in 1954 from cyanide poisoning.
+Decades later, the British government issued an apology and Queen Elizabeth II granted him a posthumous pardon.
+
+Grace Hopper
+
+Grace Hopper was an American computer scientist, mathematician, and United States Navy rear admiral.
+She earned degrees from Vassar and Yale and later became a professor of mathematics before joining the Navy Reserve during World War II.
+
+Hopper worked on the Harvard Mark I as part of the Bureau of Ships Computation Project.
+She was among the early programmers for that system and co-authored papers on the machine.
+She is also associated with the famous story of a moth found in a relay and the popularization of the term "debugging".
+
+In 1949 Hopper joined the Eckert-Mauchly Computer Corporation and later worked on UNIVAC.
+She developed one of the earliest compiler-related systems, including the A-0 system.
+She strongly argued that programming should move toward machine-independent, English-like languages rather than raw symbolic or machine code.
+
+Her work influenced FLOW-MATIC and COBOL.
+Hopper helped promote the idea that data-processing languages should be readable by ordinary people, not just specialists in low-level machine instructions.
+She remained a major public advocate for computing standards, programming-language portability, and practical software development.

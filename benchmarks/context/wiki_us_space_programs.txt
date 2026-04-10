@@ -1,0 +1,47 @@
+Source: Condensed from Wikipedia articles on Project Mercury, Project Gemini, and the Apollo program.
+Pages consulted on 2026-04-10:
+- https://en.wikipedia.org/wiki/Project_Mercury
+- https://en.wikipedia.org/wiki/Project_Gemini
+- https://en.wikipedia.org/wiki/Apollo_program
+
+Project Mercury
+
+Project Mercury was the first human spaceflight program of the United States.
+It ran from 1958 through 1963.
+Its goal was to put a man into Earth orbit and return him safely, ideally before the Soviet Union fully consolidated its lead in the Space Race.
+
+Mercury used a very small capsule designed for a single astronaut.
+It conducted uncrewed developmental flights and six successful crewed flights.
+The program included both suborbital and orbital missions.
+John Glenn became the first American to orbit Earth during Mercury.
+
+Mercury established the basic American capability for crewed spaceflight.
+Its success laid the groundwork for Project Gemini, which followed Mercury, and for the later Apollo program.
+
+Project Gemini
+
+Project Gemini was the second United States human spaceflight program.
+It was conducted after Mercury and while Apollo was still in development.
+Gemini ran from 1961 to 1966, with crewed missions in 1965 and 1966.
+
+Gemini spacecraft carried a two-astronaut crew.
+The program's main purpose was to develop the techniques needed for Apollo's lunar missions.
+Those techniques included long-duration spaceflight, extravehicular activity, rendezvous, and docking.
+Gemini also demonstrated orbital maneuvers and mission endurance long enough to support a lunar round trip.
+
+Because Gemini focused on proving these operational techniques, it is often described as the bridge between Mercury and Apollo.
+It allowed Apollo to pursue lunar landing goals without having to invent all of those methods from scratch during Apollo missions.
+
+Apollo program
+
+The Apollo program was NASA's crewed lunar exploration program.
+It was conceived in 1960, reshaped after President John F. Kennedy's 1961 Moon goal, and executed from 1961 to 1972.
+Apollo's purpose became landing humans on the Moon and returning them safely to Earth.
+
+Apollo used lessons learned from Mercury and Gemini but had a broader and more ambitious mission profile.
+The program first flew astronauts in 1968, reached lunar orbit with Apollo 8, and achieved the first Moon landing with Apollo 11 in 1969.
+Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in lunar orbit.
+
+Apollo ultimately landed astronauts on the Moon in six missions.
+The program also suffered the Apollo 1 fire and the in-flight failure that forced Apollo 13 to abort its lunar landing attempt.
+Even so, Apollo became the program most closely associated with crewed lunar landing rather than Earth-orbit technique development.

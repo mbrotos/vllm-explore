@@ -1,0 +1,84 @@
+{
+  "defaults": {
+    "tasks": [
+      "wiki_ada_profile",
+      "wiki_turing_profile",
+      "wiki_hopper_profile",
+      "wiki_space_program_bridge"
+    ],
+    "input_token_targets": [512, 2048, 8192],
+    "max_output_tokens": 96,
+    "repeats": 3,
+    "temperature": 0.0
+  },
+  "targets": [
+    {
+      "label": "mlx-gemma4-e4b",
+      "runtime": "mlx_lm",
+      "kind": "mlx_lm_worker",
+      "size": "4b",
+      "model": "mlx-community/gemma-4-e4b-it-4bit",
+      "tokenizer": "google/gemma-4-E4B-it"
+    },
+    {
+      "label": "mlx-gemma4-26b",
+      "runtime": "mlx_lm",
+      "kind": "mlx_lm_worker",
+      "size": "26b",
+      "model": "mlx-community/gemma-4-26b-a4b-it-4bit",
+      "tokenizer": "google/gemma-4-26B-A4B-it"
+    },
+    {
+      "label": "mlx-gemma4-31b",
+      "runtime": "mlx_lm",
+      "kind": "mlx_lm_worker",
+      "size": "31b",
+      "model": "mlx-community/gemma-4-31b-it-4bit",
+      "tokenizer": "google/gemma-4-31B-it"
+    },
+    {
+      "label": "ollama-gemma4-e4b",
+      "runtime": "ollama",
+      "kind": "ollama_api",
+      "size": "4b",
+      "model": "gemma4:e4b",
+      "tokenizer": "google/gemma-4-E4B-it",
+      "base_url": "http://127.0.0.1:11434",
+      "endpoint": "/api/chat",
+      "keep_alive": "30m"
+    },
+    {
+      "label": "ollama-gemma4-26b",
+      "runtime": "ollama",
+      "kind": "ollama_api",
+      "size": "26b",
+      "model": "gemma4:26b",
+      "tokenizer": "google/gemma-4-26B-A4B-it",
+      "base_url": "http://127.0.0.1:11434",
+      "endpoint": "/api/chat",
+      "keep_alive": "30m"
+    },
+    {
+      "label": "ollama-gemma4-31b",
+      "runtime": "ollama",
+      "kind": "ollama_api",
+      "size": "31b",
+      "model": "gemma4:31b",
+      "tokenizer": "google/gemma-4-31B-it",
+      "base_url": "http://127.0.0.1:11434",
+      "endpoint": "/api/chat",
+      "keep_alive": "30m"
+    },
+    {
+      "label": "opencode-gpt-5.4",
+      "runtime": "opencode",
+      "kind": "opencode_cli",
+      "size": "gpt-5.4",
+      "model": "openai/gpt-5.4",
+      "tokenizer": "openai:o200k_base",
+      "base_url": "http://127.0.0.1:4096",
+      "health_url": "http://127.0.0.1:4096/global/health",
+      "start_command": "opencode serve --port 4096"
+    }
+  ]
+}
