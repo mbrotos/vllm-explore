@@ -86,3 +86,10 @@ My practical read:
 
 - The benchmark config says `repeats=3`, but this final CSV contains one row per task/size/target combination (`84` rows total, all `repeat_index=1`). Treat the results as directional rather than statistically stable.
 - `GPT-5.4` uses a different tokenizer, so `prompt_tokens` are not directly comparable to the Gemma runs. `input_tokens` is the safer normalization field here.
+
+## References
+
+- `Ollama` docs: https://docs.ollama.com/
+- `MLX-LM`: https://github.com/ml-explore/mlx-lm
+- Google `Gemma 4`: https://huggingface.co/collections/google/gemma-4
+- `mlx-community` Gemma 4 ports: https://huggingface.co/collections/mlx-community/gemma-4
