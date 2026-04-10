@@ -1,0 +1,17 @@
+[project]
+name = "vllm-explore"
+version = "0.1.0"
+description = "Local-first experiments for agentic workflows and LLM runtime benchmarking."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+vllm-explore = "vllm_explore:main"
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
