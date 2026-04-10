@@ -67,9 +67,17 @@ My practical read:
 
 ## Figures
 
-- `figs/ttft-per-1k-input.svg`
-- `figs/tps-with-output-context.svg`
-- `figs/mlx-vs-ollama-summary.svg`
+### TTFT Normalized By Input Length
+
+![TTFT normalized by input length](figs/ttft-per-1k-input.svg)
+
+### Decode Throughput With Output-Length Context
+
+![Decode throughput with output-length context](figs/tps-with-output-context.svg)
+
+### MLX vs Ollama Summary
+
+![MLX vs Ollama summary](figs/mlx-vs-ollama-summary.svg)
 
 ## Caveats
 
