@@ -2,40 +2,47 @@
 
 ## Purpose
 
-This repository is a sandbox for exploring local LLM capabilities with an emphasis on `vLLM` and custom agentic workflows.
+This file is guidance for human contributors and coding agents working in this repository.
 
-The likely directions are:
+The repo is for small, reproducible experiments around local-first LLM workflows and runtime benchmarking. Today the practical focus is `MLX-LM`, `Ollama`, and benchmark harnesses on Apple Silicon. `vLLM` remains a future direction rather than the current default.
 
-- a privacy-respecting local email agent
-- a local research assistant
-- repeatable benchmarking across `vLLM`, `MLX-LM`, and `llama.cpp`
+## Public Repo Rules
+
+- Do not commit secrets, tokens, `.env` files, or machine-specific credentials.
+- Do not commit model weights, caches, or large transient artifacts.
+- Do not add private, proprietary, or unclear-license datasets.
+- Prefer relative paths in docs, scripts, and examples.
+- Treat anything committed here as public.
 
 ## Working Style
 
-- Prefer small, runnable experiments over framework-heavy abstractions.
-- Keep everything local-first by default.
-- Avoid introducing hosted dependencies unless there is a clear need.
-- Favor reproducible benchmark scripts and explicit configuration.
-- Do not commit model weights, caches, datasets with sensitive content, or local secrets.
+- Prefer small, runnable experiments over broad abstractions.
+- Keep behavior explicit and configuration-driven.
+- Favor reproducible benchmark scripts over one-off notebooks.
+- Keep the local-first bias unless there is a clear reason to add hosted dependencies.
+- Document benchmark caveats when results are shared.
 
-## Near-Term Priorities
+## Benchmark Guidance
 
-- Stand up a minimal Python app and project structure.
-- Add simple wrappers or scripts for trying local runtimes.
-- Establish a benchmark shape for latency, throughput, memory use, and output quality notes.
-- Compare how the same model family behaves across runtimes where possible.
+- Keep TTFT and TPS definitions consistent across runtimes.
+- Separate inference timing from cold-start/model-load timing when possible.
+- Note tokenizer differences when comparing prompt length across runtimes.
+- Keep output constraints explicit so throughput comparisons stay interpretable.
+- If publishing results, include machine specs, config path, and any major caveats.
+
+## Current Priorities
+
+- Improve repeatable benchmarking across local runtimes.
+- Compare the same model family across different inference stacks.
+- Keep the codebase easy to run and easy to inspect.
+- Add only enough agentic workflow code to support concrete experiments.
 
 ## Runtime Notes
 
-- `vLLM` is the primary serving/runtime focus for high-throughput inference and OpenAI-compatible serving.
-- `Ollama` is useful for fast local model setup and API ergonomics.
-- `MLX-LM` is relevant for Apple Silicon-native local inference.
-- `llama.cpp` is relevant for broad local deployment and GGUF-based workflows.
-
-## Candidate Models
-
-- Google Gemma 4 family on Hugging Face.
-- MLX community Gemma 4 ports and quantizations for Apple Silicon testing.
+- `MLX-LM` is the best fit for Apple Silicon-native local inference.
+- `Ollama` is useful for fast local setup and API ergonomics.
+- `llama.cpp` and GGUF-style workflows are relevant comparison points.
+- `vLLM` is still in scope, but not yet the main implemented path in this repo.
 
 ## References
 

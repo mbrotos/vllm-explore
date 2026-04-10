@@ -1,24 +1,39 @@
 # vllm-explore
 
-Local-first experiments for agentic workflows and LLM runtime benchmarking.
+Experimental local-first LLM runtime benchmarks and agent workflow prototypes, currently focused on Apple Silicon-friendly setups.
+
+## Status
+
+- Early-stage and intentionally minimal.
+- Current benchmark focus: `MLX-LM`, `Ollama`, and an `OpenCode`-backed reference API target.
+- Despite the repository name, `vLLM` is currently more of a future direction than an implemented default.
 
 ## Why This Repo Exists
 
-This project is a place to explore what local models can do in practical workflows without immediately committing to one product shape.
+This project is a place to explore what local models can do in practical workflows without committing too early to one runtime, serving stack, or product shape.
 
 Current directions include:
 
 - privacy-respecting local email agents
 - local research assistants
-- benchmark comparisons across `MLX-LM` and `Ollama`
+- benchmark comparisons across `MLX-LM`, `Ollama`, and future `vLLM` paths
 
-For now, the repository is intentionally minimal: a `uv`-managed Python project, a simple runnable app, and a lightweight set of notes to guide future experiments.
+For now, the repository is intentionally small: a `uv`-managed Python project, a simple runnable app, a benchmark harness, and lightweight notes to guide future experiments.
 
 ## Focus Areas
 
-- `Ollama` for easy local model management
 - `MLX-LM` for Apple Silicon-native experiments
+- `Ollama` for easy local model management
 - simple local benchmarking harnesses for repeatable runtime comparisons
+- future `vLLM` experiments for higher-throughput serving
+
+## Public Repo Hygiene
+
+- Do not commit secrets, auth tokens, `.env` files, or machine-specific credentials.
+- Do not commit model weights, local caches, or large transient benchmark artifacts.
+- Do not add private or restricted datasets unless their redistribution terms are clear.
+- Prefer relative paths and reproducible commands in docs and scripts.
+- If you publish benchmark results, include enough context to reproduce them: machine specs, config path, model labels, and major caveats.
 
 ## Getting Started
 
@@ -42,7 +57,7 @@ uv run python -m vllm_explore
 
 ## Benchmark Harness
 
-The repo now includes a simple benchmark harness focused on:
+The repo includes a simple benchmark harness focused on:
 
 - TTFT (time to first token)
 - output tokens per second
@@ -87,12 +102,20 @@ uv run vllm-explore benchmark run --config benchmarks/gemma4.json --csv-path res
 - `MLX-LM` is measured through a persistent Python worker so the model loads once and each prompt measures inference rather than repeated cold starts.
 - `Ollama` is measured through its native streamed `/api/chat` responses.
 - `OpenCode` is measured through streamed `opencode run --attach ... --format json` output against a local `opencode serve` instance.
+- `input_tokens` is the safer cross-runtime prompt-length field to compare. `prompt_tokens` can differ materially across tokenizers.
 - If the `26B` model is not installed locally, pull it first with `ollama pull gemma4:26b`.
 - The built-in input sizes are `512`, `2048`, and `8192` approximate prompt tokens.
-- The default Gemma config now uses longer-context tasks built from local files in `benchmarks/context/`.
+- The default Gemma config uses longer-context tasks built from local files in `benchmarks/context/`.
 - Those context bundles are condensed from public Wikipedia articles and then padded further when needed to hit the target context sizes.
 - The benchmark prompts ask the model to reason privately and return compact JSON so output length stays relatively controlled.
 - The `opencode-gpt-5.4` target assumes your local OpenCode install is already authenticated with the `openai` provider.
+
+## Results and Analysis
+
+- Raw benchmark outputs: `results/`
+- Example consolidated CSV: `results/final-benchmark-results.csv`
+- Example write-up: `report.md`
+- Example generated figures: `figs/`
 
 ## Current Layout
 
@@ -100,8 +123,11 @@ uv run vllm-explore benchmark run --config benchmarks/gemma4.json --csv-path res
 .
 ├── AGENT.md
 ├── benchmarks/
+├── figs/
 ├── README.md
+├── report.md
 ├── pyproject.toml
+├── results/
 ├── uv.lock
 └── src/
     └── vllm_explore/
@@ -110,6 +136,10 @@ uv run vllm-explore benchmark run --config benchmarks/gemma4.json --csv-path res
         ├── benchmark.py
         └── mlx_lm_worker.py
 ```
+
+## Contributing
+
+Small, reproducible changes are preferred over large speculative refactors. If you add a benchmark, keep the config explicit, document the runtime assumptions, and include a short note on how to reproduce the result.
 
 ## Early Experiment Ideas
 
