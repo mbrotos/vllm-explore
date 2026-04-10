@@ -2,6 +2,9 @@
 
 Source: `results/final-benchmark-results.csv`
 
+> Warning ⚠️
+> This analysis is vibe-coded and should be treated as directional rather than rigorous benchmarking.
+
 ## Machine
 
 - MacBook Pro (`Mac16,8`)

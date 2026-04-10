@@ -2,6 +2,9 @@
 
 Experimental local-first LLM runtime benchmarks and agent workflow prototypes, currently focused on Apple Silicon-friendly setups.
 
+> Warning ⚠️
+> This project is heavily vibe-coded and should be treated as directional exploration, not production-quality software or rigorous benchmark infrastructure.
+
 ## Status
 
 - Early-stage and intentionally minimal.
